@@ -1,0 +1,7 @@
+# Normalise line endings so Windows contributors don't flood diffs with CRLF changes
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.enw  text eol=lf
