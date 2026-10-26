@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# EndNote / generated working files (never commit a user's library or output)
+*.enl
+*.enw
+*.Data/
+*.state.json
+*.audit.csv
+*.endnote-ready*.docx
+~$*.docx
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.idea/
+.vscode/

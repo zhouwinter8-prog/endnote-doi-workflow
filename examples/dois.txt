@@ -1,0 +1,22 @@
+# Example DOI input file for `prepare-doi --doi-file`
+#
+# Rules:
+#   - one identifier per line
+#   - lines starting with `#` are comments
+#   - a bare all-digit token is treated as a PMID instead of a DOI
+#   - `https://doi.org/...` and `doi:` prefixes are stripped automatically
+#
+# Usage:
+#   python scripts/workflow_cli.py prepare-doi --doi-file examples/dois.txt --outdir out
+
+# Resolved via PubMed (biomedical / life-science literature)
+10.1038/s41586-021-03819-2
+10.1002/ccr3.4439
+10.1021/acsnano.3c08854
+
+# Resolved via Crossref (not indexed in PubMed)
+10.1145/3292500.3330675
+10.1007/978-3-030-58607-2_1
+
+# A PMID works too, so mixed lists are fine
+34265844
